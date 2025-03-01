@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Character-Based Story</title>
+    <link rel="stylesheet" href="character-story.css">
+</head>
+<body>
+    <div class="container">
+        <h1>🎭 Character-Based Story</h1>
+        <input type="text" id="character-name" placeholder="Enter Character Name">
+        <button class="button" onclick="generateCharacterStory()">Generate Story</button>
+        <div id="story-output"></div>
+        <div class="characters">
+            <button class="character" data-name="Elsa">Elsa ❄️</button>
+            <button class="character" data-name="Harry Potter">Harry Potter 🧙</button>
+            <button class="character" data-name="Superman">Superman 🦸</button>
+        </div>
+        
+        <div id="storyOutput"></div>
+        <button id="narrateStory" style="display: none;">🔊 Narrate Story</button>
+        
+        <button class="button back" onclick="goBack()">⬅️ Back</button>
+    </div>
+
+    <script src="character-story.js"></script>
+</body>
+</html>

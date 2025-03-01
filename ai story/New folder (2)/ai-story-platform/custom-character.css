@@ -1,0 +1,26 @@
+body {
+    font-family: 'Comic Sans MS', cursive;
+    text-align: center;
+    background: linear-gradient(to right, #ff9a9e, #fad0c4);
+    color: white;
+}
+
+.container {
+    margin-top: 50px;
+}
+
+.button {
+    background: #ff758c;
+    color: white;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 18px;
+    margin: 10px;
+    transition: transform 0.2s;
+}
+
+.button:hover {
+    transform: scale(1.1);
+}

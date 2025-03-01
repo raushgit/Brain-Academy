@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Story Narration</title>
+    <link rel="stylesheet" href="narration.css">
+</head>
+<body>
+    <div class="container">
+        <h1>📖 Choose a Story to Narrate</h1>
+        
+        <div class="story-box">
+            <ul class="story-list">
+                <li data-story="Once upon a time, a brave little rabbit set off on a grand adventure through the enchanted forest.">
+                    🐰 <span>The Brave Little Rabbit</span>
+                </li>
+                <li data-story="In a faraway kingdom, a kind-hearted prince discovered a magical golden apple that could grant wishes.">
+                    🍏 <span>The Magic Apple</span>
+                </li>
+                <li data-story="A tiny dragon named Sparky wanted to breathe fire like the big dragons, but his fire was just a small puff of smoke.">
+                    🐉 <span>Sparky the Tiny Dragon</span>
+                </li>
+            </ul>
+        </div>
+
+        <!-- Display the selected story -->
+        <div class="story-display">
+            <h2>📜 Story Preview</h2>
+            <p id="storyText">Click on a story to see its text here...</p>
+        </div>
+
+        <button id="narrateStory" disabled>🎙️ Narrate Story</button>
+        <audio id="audioPlayer" controls></audio>
+    </div>
+
+    <script src="narration.js"></script>
+</body>
+</html>

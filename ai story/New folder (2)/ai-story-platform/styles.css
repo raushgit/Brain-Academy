@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+
+body {
+    font-family: 'Fredoka One', cursive;
+    text-align: center;
+    background: url('background.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: white;
+}
+
+.container {
+    margin-top: 50px;
+}
+
+h1 {
+    font-size: 3em;
+    text-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3);
+    animation: bounce 2s infinite alternate;
+}
+
+/* Button Styling */
+.button {
+    background: linear-gradient(to right, #ff9a9e, #fad0c4);
+    color: white;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 20px;
+    margin: 15px;
+    transition: transform 0.3s, box-shadow 0.3s;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.3);
+    display: inline-block;
+}
+
+.button:hover {
+    transform: scale(1.1);
+    box-shadow: 6px 6px 15px rgba(0, 0, 0, 0.4);
+}
+
+/* Button Animations */
+@keyframes bounce {
+    from {
+        transform: translateY(0px);
+    }
+    to {
+        transform: translateY(-10px);
+    }
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 2.5em;
+    }
+    .button {
+        font-size: 18px;
+        padding: 12px 25px;
+    }
+}
