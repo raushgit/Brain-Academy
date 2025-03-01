@@ -1,0 +1,529 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+}
+
+/* Header */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 40px;
+    background-color: white;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.logo img {
+    height: 40px;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+}
+
+.nav-btn {
+    background: none;
+    border: 1px solid #16a34a;
+    padding: 10px 20px;
+    margin-right: 10px;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #16a34a;
+}
+
+.trial-btn {
+    margin-right: 10px;
+    background: #16a34a;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.trial-btn.green {
+    background: #16a34a;
+}
+
+/* Hero Section */
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px 10%;
+}
+
+.hero-content {
+    max-width: 50%;
+}
+
+.hero-content h1 {
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.subtext {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.age-buttons {
+    margin-bottom: 20px;
+}
+
+.age-btn {
+    background: #f3f4f6;
+    border: none;
+    padding: 10px 15px;
+    margin: 5px;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.cta-btn {
+    background: linear-gradient(90deg, #ff7f50, #ff4500);
+    color: white;
+    padding: 15px 30px;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: block;
+    margin-top: 10px;
+}
+
+.offer-text {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.highlight {
+    color: green;
+}
+
+.join-text {
+    margin-top: 5px;
+    font-size: 14px;
+}
+
+.join-text a {
+    color: red;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.hero-image img {
+    max-width: 450px;
+    border-radius: 10px;
+}
+/* AI Learning Modules Section */
+.ai-modules {
+    text-align: center;
+    padding: 50px 10%;
+    background: linear-gradient(135deg, #e0f7fa, #e3f2fd);
+}
+
+.ai-modules h2 {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.module-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.module-card {
+    background: white;
+    border-radius: 10px;
+    padding: 20px;
+    width: 18%;
+    text-align: center;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    transition: 0.3s ease-in-out;
+}
+
+.module-card span {
+    font-size: 30px;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.module-card h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.module-card p {
+    font-size: 14px;
+    color: #555;
+}
+
+/* Hover Effect */
+.module-card:hover {
+    background: #ff4500;
+    color: white;
+    transform: translateY(-5px);
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.module-card:hover p {
+    color: white;
+}
+
+.thinking-skills {
+    text-align: center;
+    padding: 50px 10%;
+}
+
+.thinking-skills h2 {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.thinking-skills p {
+    color: gray;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.age-group-tabs {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 30px;
+}
+
+.tab-btn {
+    border: 2px solid #ff4500;
+    background: white;
+    padding: 10px 20px;
+    font-weight: bold;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.tab-btn.active {
+    background: #ff4500;
+    color: white;
+}
+
+.content-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px;
+    background: linear-gradient(135deg, #fdf1eb, #fdebd3);
+    border-radius: 20px;
+}
+
+.image-container img {
+    max-width: 300px;
+    border-radius: 10px;
+}
+
+.skills-content {
+    max-width: 50%;
+    text-align: left;
+    display: block;
+}
+
+.skill-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.skill-item span {
+    font-size: 30px;
+    margin-right: 15px;
+}
+
+.skill-item h3 {
+    margin: 0;
+    font-size: 18px;
+}
+
+.skill-item p {
+    font-size: 14px;
+    color: #555;
+}
+
+
+
+.thinking-skills {
+    text-align: center;
+    padding: 50px 5%;
+}
+
+.thinking-skills h2 {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.thinking-skills p {
+    color: gray;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+/* Age Group Tabs - Responsive */
+.age-group-tabs {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 30px;
+    flex-wrap: wrap; /* Allows wrapping on smaller screens */
+}
+
+.tab-btn {
+    border: 2px solid #ff4500;
+    background: white;
+    padding: 10px 15px;
+    font-weight: bold;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: 0.3s;
+    white-space: nowrap; /* Prevents breaking in multiple lines */
+}
+
+.tab-btn.active {
+    background: #ff4500;
+    color: white;
+}
+
+/* Content Container - Responsive */
+.content-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+    padding: 40px;
+    background: linear-gradient(135deg, #fdf1eb, #fdebd3);
+    border-radius: 20px;
+}
+
+/* Image - Responsive */
+.image-container {
+    flex: 1; /* Allows the image to adjust dynamically */
+    display: flex;
+    justify-content: center;
+}
+
+.image-container img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+/* Skills Content - Responsive */
+.skills-content {
+    flex: 1;
+    text-align: left;
+}
+
+.skill-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.skill-item span {
+    font-size: 30px;
+    margin-right: 15px;
+}
+
+.skill-item h3 {
+    margin: 0;
+    font-size: 18px;
+}
+
+.skill-item p {
+    font-size: 14px;
+    color: #555;
+}
+
+.ai-modules {
+    text-align: center;
+    padding: 50px 5%;
+}
+
+.ai-modules h2 {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.module-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.module-card {
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 280px;
+    transition: 0.3s;
+}
+
+.module-card:hover {
+    transform: translateY(-5px);
+}
+
+/* Responsive Thinking Skills Section */
+.thinking-skills {
+    text-align: center;
+    padding: 50px 5%;
+}
+
+.thinking-skills h2 {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.age-group-tabs {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+}
+
+.tab-btn {
+    border: 2px solid #ff4500;
+    background: white;
+    padding: 10px 15px;
+    font-weight: bold;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: 0.3s;
+    white-space: nowrap;
+}
+
+.tab-btn.active {
+    background: #ff4500;
+    color: white;
+}
+
+.content-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+    padding: 40px;
+    background: linear-gradient(135deg, #fdf1eb, #fdebd3);
+    border-radius: 20px;
+    flex-wrap: wrap;
+}
+
+.image-container {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.image-container img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.skills-content {
+    flex: 1;
+    text-align: left;
+}
+
+.skill-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.skill-item span {
+    font-size: 30px;
+    margin-right: 15px;
+}
+
+.skill-item h3 {
+    margin: 0;
+    font-size: 18px;
+}
+
+.skill-item p {
+    font-size: 14px;
+    color: #555;
+}
+
+/* Mobile & Tablet Adjustments */
+@media (max-width: 1024px) {
+    .content-container {
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .skills-content {
+        text-align: center;
+    }
+    
+    .skill-item {
+        justify-content: center;
+    }
+}
+
+@media (max-width: 768px) {
+    .tab-btn {
+        padding: 8px 12px;
+        font-size: 12px;
+    }
+    
+    .image-container img {
+        max-width: 70%;
+    }
+}
+
+@media (max-width: 480px) {
+    .age-group-tabs {
+        overflow-x: auto;
+        white-space: nowrap;
+        padding-bottom: 10px;
+    }
+    
+    .tab-btn {
+        font-size: 12px;
+        padding: 8px 10px;
+    }
+    
+    .content-container {
+        padding: 20px;
+    }
+    
+    .skill-item span {
+        font-size: 25px;
+    }
+}

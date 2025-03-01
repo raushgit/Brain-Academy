@@ -1,0 +1,76 @@
+/* General Styles */
+body {
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    background-color: #ffebcd; /* Light peach */
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+/* Heading */
+h1 {
+    color: #ff4500; /* Bright Orange */
+    font-size: 2.5rem;
+    margin-top: 20px;
+}
+
+/* Section Styles */
+section {
+    background: #ffffff;
+    border-radius: 15px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
+    margin: 20px auto;
+    padding: 20px;
+    width: 80%;
+    max-width: 600px;
+}
+
+/* Section Titles */
+h2 {
+    color: #ff1493; /* Deep Pink */
+}
+
+/* Links (Buttons) */
+a {
+    display: inline-block;
+    text-decoration: none;
+    background-color: #32cd32; /* Lime Green */
+    color: white;
+    padding: 12px 20px;
+    margin: 10px;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+a:hover {
+    background-color: #228b22; /* Dark Green */
+}
+
+/* Back to Home Button */
+.back-home {
+    background-color: #1e90ff; /* Dodger Blue */
+    display: block;
+    width: 200px;
+    margin: 20px auto;
+}
+
+.back-home:hover {
+    background-color: #104e8b; /* Dark Blue */
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    section {
+        width: 90%;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    a {
+        font-size: 1rem;
+        padding: 10px 15px;
+    }
+}

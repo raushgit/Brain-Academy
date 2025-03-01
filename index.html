@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Creta Class - Math Learning</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <header class="header">
+        <div class="logo">
+            <img src="logo.png" alt="Creta Class">
+        </div>
+        <nav class="nav">
+            <button class="nav-btn">ABOUT</button>
+            <button class="nav-btn">MATH</button>
+            <button class="trial-btn">📞 +918069490088</button>
+            <button class="trial-btn green">Book a FREE Trial</button>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Making Kids Fall in Love with Learning!</h1>
+            <!-- <p class="subtext">BOOK YOUR FREE CLASS WITH AGE GROUP</p> -->
+            <div class="age-buttons">
+                <a href="age-3.html"><button class="age-btn">Age - 3</button></a>
+<!-- <button class="age-btn">age - 3</button> -->
+                <button class="age-btn">age - 4</button>
+                <button class="age-btn">age - 5</button>
+                <button class="age-btn">age - 6</button>
+                <button class="age-btn">age - 7</button>
+                <button class="age-btn">age - 8</button>
+            </div>
+            <button class="cta-btn">let's start</button>
+            <!-- <p class="offer-text">₹0 For First Class <span class="highlight">100% Off</span></p> -->
+            <!-- <p class="join-text">Booked A Demo Already? <a href="#">JOIN NOW</a></p> -->
+        </div>
+        <div class="hero-image">
+            <img src="./picture/home page girl.jpeg" alt="Child Learning Math" >
+            
+        </div>
+    </section>
+    <section class="ai-modules">
+        <h2>🎯 Our AI-Powered Learning Modules</h2>
+        <div class="module-container">
+            <div class="module-card">
+                <span >📚 </span>
+                <h3>AI Story Builder</h3>
+                <p>Create magical AI-generated stories and let your imagination run wild!</p>
+            </div>
+            <div class="module-card">
+                <span>🔢</span>
+                <h3>Math Adventures</h3>
+                <p>Solve fun math quizzes and puzzles designed just for you.</p>
+            </div>
+            <!-- <div class="module-card">
+                <span>🎨</span>
+                <h3>Art with AI</h3>
+                <p>Draw and color with AI tools to bring your ideas to life.</p>
+            </div> -->
+            <div class="module-card">
+                <span>🔬</span>
+                <h3>Science Quizzes</h3>
+                <p>Explore the wonders of science through AI-powered quizzes.</p>
+            </div>
+            <div class="module-card">
+                <span>🗣️</span>
+                <h3>Language Learning Corner</h3>
+                <p>Learn new languages and practice speaking with AI assistance.</p>
+            </div>
+        </div>
+
+        <!-- <section class="thinking-skills">
+            <h2>Cultivate Thinking Skills From All Aspects</h2>
+            <p>Our Expert Advisors Can Help You Find The Right Workplace Solution For You And Your Team</p>
+            
+            <div class="age-group-tabs">
+                <button class="tab-btn">S2<br>3-4 Years Old</button>
+                <button class="tab-btn active">S3<br>5 Years Old</button>
+                <button class="tab-btn">S4<br>6 Years Old</button>
+            </div>
+        
+            <div class="content-container">
+                <div class="image-container">
+                    <img src="images/image.png" alt="Thinking Skills">
+                </div>
+                <div class="skills-content">
+                    <div class="skill-item">
+                        <span>📗</span>
+                        <h3>Number Sense and Operations</h3>
+                        <p>Fluently compose and decompose numbers within 10. Understand addition and subtraction within 10.</p>
+                    </div>
+                    <div class="skill-item">
+                        <span>📐</span>
+                        <h3>Geometry</h3>
+                        <p>Recognize 2D and 3D shapes. Identify defining attributes of shapes (edges, vertices, cross sections, nets, etc.).</p>
+                    </div>
+                    <div class="skill-item">
+                        <span>🔢</span>
+                        <h3>Logic and Patterns</h3>
+                        <p>Use analogical reasoning to solve Sudoku puzzles and understand the concept of cycles.</p>
+                    </div>
+                    <div class="skill-item">
+                        <span>📏</span>
+                        <h3>Problem Solving</h3>
+                        <p>Learn tangram puzzles and practice creating shapes using tangram pieces. Measure by iterating length units.</p>
+                    </div>
+                </div>
+            </div>
+        </section> -->
+        <section class="thinking-skills">
+            <h2>Cultivate Thinking Skills From All Aspects</h2>
+            <p>Our Expert Advisors Can Help You Find The Right Workplace Solution For You And Your Team</p>
+            
+            <div class="age-group-tabs">
+                
+                <button class="tab-btn" onclick="showContent('s2')">S2<br>3-4 Years Old</button>
+                <button class="tab-btn active" onclick="showContent('s3')">S3<br>5 Years Old</button>
+                <button class="tab-btn" onclick="showContent('s4')">S4<br>6 Years Old</button>
+
+            </div>
+        
+            <div class="content-container">
+                <div class="image-container">
+                    
+                </div>
+        
+                <!-- Content for 3-4 Years Old -->
+                <div class="skills-content" id="s2-content" style="display: none;">
+                    <div class="skill-item">
+                        <span>🔢</span>
+                        <h3>Basic Number Recognition</h3>
+                        <p>Identify and count numbers up to 5 using objects and pictures.</p>
+                    </div>
+                    <div class="skill-item">
+                        <span>🟥</span>
+                        <h3>Shapes and Colors</h3>
+                        <p>Recognize basic shapes like circle, square, and triangle. Identify primary colors.</p>
+                    </div>
+                    <div class="skill-item">
+                        <span>📖</span>
+                        <h3>Story Comprehension</h3>
+                        <p>Listen to short stories and answer simple questions.</p>
+                    </div>
+                    <div class="skill-item">
+                        <span>🧩</span>
+                        <h3>Simple Puzzles</h3>
+                        <p>Match and sort objects by size, shape, and color.</p>
+                    </div>
+                </div>
+        
+                <!-- Content for 5 Years Old (Default) -->
+                <div class="skills-content" id="s3-content">
+                    <div class="skill-item">
+                        <span>📗</span>
+                        <h3>Number Sense and Operations</h3>
+                        <p>Fluently compose and decompose numbers within 10. Understand addition and subtraction within 10.</p>
+                    </div>
+                    <div class="skill-item">
+                        <span>📐</span>
+                        <h3>Geometry</h3>
+                        <p>Recognize 2D and 3D shapes. Identify defining attributes of shapes (edges, vertices, cross sections, nets, etc.).</p>
+                    </div>
+                    <div class="skill-item">
+                        <span>🔢</span>
+                        <h3>Logic and Patterns</h3>
+                        <p>Use analogical reasoning to solve Sudoku puzzles and understand the concept of cycles.</p>
+                    </div>
+                    <div class="skill-item">
+                        <span>📏</span>
+                        <h3>Problem Solving</h3>
+                        <p>Learn tangram puzzles and practice creating shapes using tangram pieces. Measure by iterating length units.</p>
+                    </div>
+                </div>
+        
+                <!-- Content for 6 Years Old -->
+                <div class="skills-content" id="s4-content" style="display: none;">
+                    <div class="skill-item">
+                        <span>🔢</span>
+                        <h3>Advanced Counting</h3>
+                        <p>Count up to 20 and understand simple addition and subtraction.</p>
+                    </div>
+                    <div class="skill-item">
+                        <span>📏</span>
+                        <h3>Measurement</h3>
+                        <p>Compare lengths, heights, and weights using everyday objects.</p>
+                    </div>
+                    <div class="skill-item">
+                        <span>🧩</span>
+                        <h3>Complex Puzzles</h3>
+                        <p>Solve more advanced shape and pattern puzzles.</p>
+                    </div>
+                    <div class="skill-item">
+                        <span>📖</span>
+                        <h3>Reading Readiness</h3>
+                        <p>Recognize letters and words, and start forming simple sentences.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+    </section>
+
+    
+    <script src="./script.js"></script>
+</body>
+</html>
+
+
