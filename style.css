@@ -1,4 +1,4 @@
-/* General Styles */
+General Styles
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -17,7 +17,7 @@ body {
 }
 
 .logo img {
-    height: 40px;
+    height: 60px;
 }
 
 .nav {
@@ -99,7 +99,8 @@ body {
     border-radius: 5px;
     cursor: pointer;
     display: block;
-    margin-top: 10px;
+    margin-top: 20px;
+    margin-bottom:20px;
 }
 
 .offer-text {
@@ -155,6 +156,7 @@ body {
     text-align: center;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
     transition: 0.3s ease-in-out;
+    
 }
 
 .module-card span {
@@ -527,3 +529,112 @@ body {
         font-size: 25px;
     }
 }
+/* Footer Container */
+.footer {
+    background-color: #f7f7f7;
+    padding: 30px 0;
+    font-family: 'Comic Sans MS', sans-serif;
+    position: relative;
+  }
+  
+  /* Footer Content */
+  .footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    animation: slideIn 1s ease-out;
+  }
+  
+  /* Footer Logo */
+  .footer-logo .logo {
+    width: 150px;
+    animation: bounce 2s infinite alternate;
+  }
+  
+  /* Footer Links */
+  .footer-links ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 20px;
+  }
+  
+  .footer-links ul li {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .footer-links ul li a {
+    color: #2a9df4;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  .footer-links ul li a:hover {
+    color: #ff6f61;
+    transform: scale(1.1);
+  }
+  
+  /* Footer Social Icons */
+  .footer-social {
+    display: flex;
+    gap: 15px;
+  }
+  
+  .footer-social a {
+    text-decoration: none;
+    font-size: 30px;
+    color: #2a9df4;
+    font-weight: bold;
+    transition: transform 0.3s ease, color 0.3s ease;
+  }
+  
+  .footer-social a:hover {
+    transform: rotate(360deg);
+    color: #ff6f61;
+  }
+  
+  /* Footer Bottom */
+  .footer-bottom {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 14px;
+    color: #333;
+    animation: fadeIn 1s ease-out;
+  }
+  
+  /* Animations */
+  @keyframes slideIn {
+    from {
+      opacity: 0;
+      transform: translateX(-50px);
+    }
+    to {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+  
+  @keyframes bounce {
+    0% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-10px);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }

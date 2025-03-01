@@ -1,0 +1,27 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background: #fefae0;
+}
+
+.game-container {
+    background: #ffdd67;
+    padding: 20px;
+    border-radius: 10px;
+    display: inline-block;
+}
+
+#numberDisplay {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+button {
+    background: #ff5733;
+    color: white;
+    padding: 10px 20px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
