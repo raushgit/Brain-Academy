@@ -1,5 +1,5 @@
 
-Brain-Academy 🧠📚 
+## Brain-Academy 🧠📚 
 
 An innovative AI-powered educational web app designed for young learners (Grades 1-5) to make learning interactive, engaging, and accessible to all—including children with disabilities.
 ## 🚀 About the Project
@@ -18,7 +18,7 @@ Brain-Academy is more than just an educational tool—it's a smart tutor that li
  1. Clone the repository:
 
 ```bash
-  git clone https://github.com/[your-repo-name]/  Brain-Academy.git
+  git clone https://github.com/raushgit/Brain-Academy.git
 ```
 
 2. Navigate to the project directory:
