@@ -50,4 +50,5 @@ document.addEventListener('DOMContentLoaded', () => {
             console.error('Speech recognition not supported in this browser.');
         }
     });
+
 });
