@@ -5,7 +5,7 @@ body {
     padding: 0;
     background-color: #ffffff;
 }
-
+ 
 /* Header */
 .header {
     display: flex;
@@ -640,3 +640,4 @@ body {
     opacity: 1;
   }
 }
+
