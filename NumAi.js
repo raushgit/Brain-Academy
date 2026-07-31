@@ -1,7 +1,7 @@
 document.addEventListener('DOMContentLoaded', () => {
     const numberDisplay = document.getElementById('numberDisplay');
     const resultText = document.getElementById('resultText');
-    const startGameButton = document.getElementById('startGame');
+ const startGameButton = document.getElementById('startGame');
     const startRecognitionButton = document.getElementById('startRecognition');
 
     let currentNumber = 1;
