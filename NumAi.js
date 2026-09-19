@@ -1,4 +1,4 @@
-document.addEventListener('DOMContentLoaded', () => {
+ ldocument.addEventListener('DOMContentLoaded', () => {
     const numberDisplay = document.getElementById('numberDisplay');
     const resultText = document.getElementById('resultText');
  const startGameButton = document.getElementById('startGame');
